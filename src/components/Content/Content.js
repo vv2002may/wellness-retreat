@@ -52,7 +52,7 @@ export default function Content() {
    }
 
    return (
-      <div>
+      <div className='allContent'>
          <div className='filsea'>
             <div className='filter'>
                <select onChange={typeChangeHandler} className='type'>
